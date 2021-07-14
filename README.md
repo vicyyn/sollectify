@@ -1,4 +1,4 @@
-![](https://media.giphy.com/media/tYy1TrPw9FfRJDD0Vm/giphy.gif)
+![](https://media.giphy.com/media/tYy1TrPw9FfRJDD0Vm/giphy.gif =500x500)
 
 # Sollectify
 Sollectify is a creator-centric NFT marketplace where users on the platform can easily create, trade and sell non-fungible tokens (NFTs) for their unique digital items like artworks, game items and more.
