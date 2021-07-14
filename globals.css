@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  @font-face {
+    font-family: SF Pro Text;
+    src: url(/fonts/SFPro.ttf) format("truetype");
+  }
+  @font-face {
+    font-family: GT Haptik;
+    src: url(/fonts/GT-Haptik.woff2) format("woff2");
+  }
+  @font-face {
+    font-family: raleway;
+    src: url(/fonts/raleway.ttf) format("truetype");
+  }
+  @font-face {
+    font-family: draleway;
+    src: url(/fonts/draleway.ttf) format("truetype");
+  }
+  @font-face {
+    font-family: quicksand;
+    src: url(/fonts/quicksand.ttf) format("truetype");
+  }
+}
+
+.translate-show{
+  transform : translateX(0%);
+}
+.translate-hide{
+  transform : translateX(150%);
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #a8a8a8;
+}
+
+html {
+	overflow-x: hidden;
+}
+
+/* Grids */
+.grid-nft-page {
+	display: grid;
+	grid-template-columns: 41% auto;
+	grid-template-areas: 'left right';
+}
+
+@media only screen and (max-width: 800px) {
+	.grid-nft-page {
+		grid-template-columns: 1fr;
+		grid-template-areas: 'left'
+							  'right';
+	}
+}
+.nft-page-left { grid-area: left; }
+.nft-page-right { grid-area: right; }
