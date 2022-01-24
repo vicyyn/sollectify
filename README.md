@@ -16,9 +16,5 @@ yarn dev
 
 ## Contributions
 
-vicyyn [@vicyyn](https://twitter.com/vicyyn)
-
 Niemand [@NieMandRs](https://twitter.com/NieMandRs)
-
-Asauce [@Asauce0972](https://twitter.com/asauce0972)
 
